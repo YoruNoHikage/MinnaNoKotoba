@@ -1,20 +1,11 @@
-function Lesson(nLesson) {
+function Lesson(main, nLesson) {
 	this.numberLesson = nLesson;
+	this.main = main;
 	
 	this.loadLesson = function() {
-		var data = new Data();
+		var data = new Data(this);
 		
-		switch(this.numberLesson)
-		{
-			case 1:
-				data.add(Array('ohayo'), Array('bonjour'));
-				data.add(Array('nani'), Array('quoi'));
-				data.add(Array('tamago'), Array('oeuf'));
-				data.add(Array('kutsu'), Array('chaussure'));
-				break;
-		}
-		
-		data.scores[0] = data.words.length;
+		data.load("lesson" + this.numberLesson + ".txt");
 		
 		return data;
 	};
@@ -31,8 +22,17 @@ function Lesson(nLesson) {
 	// COMPARE TO KNOW IF IT'S RIGHT OR WRONG
 	
 	this.compare = function(answer, nAsk) {
+		
+		// delete useless spaces
+		answer = answer.replace(/^\s+/g,'').replace(/\s+$/g,'');
+		answer = answer.toLowerCase();
+	
 		for(i = 0 ; i < this.data.words[nAsk].values.length ; i++) {
-			if(answer == this.data.words[nAsk].values[i]) {
+			var ask = this.data.words[nAsk].values[i];
+			ask = ask.replace(/^\s+/g,'').replace(/\s+$/g,'');
+			ask = ask.toLowerCase();
+			
+			if(answer == ask) {
 				return true;
 			}
 		}
@@ -63,7 +63,6 @@ function Lesson(nLesson) {
 	
 	// Init
 	this.data = this.loadLesson();
-	this.updateScores(0);
 }
 
 // Object Word
@@ -78,13 +77,14 @@ function Word() {
 	};
 }
 
-function Data() {
+function Data(lesson) {
 	this.words = new Array();
 	this.maxLevels = 4;
 	this.scores = new Array(this.maxLevels);
 	for(i = 0 ; i < this.scores.length ; i++) {
 		this.scores[i] = 0;
 	}
+	this.lesson = lesson;
 	
 	this.add = function add(keys, values) {
 		var word = new Word();
@@ -111,4 +111,45 @@ function Data() {
 		this.words[ask].currentLevel = 0;
 		this.scores[this.words[ask].currentLevel]++;
 	}
+	
+	this.load = function(filename) {
+		var path = "resources/" + filename;
+		getFile(path, this);
+	}
+	
+	this.loadContent = function(content) {
+		var lines = content.split("\n");
+		for(i = 0 ; i < lines.length ; i++) {
+			var words = lines[i].split("=");
+			var wordsLeft = words[0].split(",");
+			var wordsRight = words[1].split(",");
+			
+			this.add(wordsLeft, wordsRight);
+		}
+	}
+}
+
+function getFile(path, data) {
+	var xhr_object = null;
+	
+	if(window.XMLHttpRequest) // Firefox
+		xhr_object = new XMLHttpRequest();
+	else if(window.ActiveXObject) // Internet Explorer
+		xhr_object = new ActiveXObject("Microsoft.XMLHTTP");
+	else {
+		alert("Your browser doesn't work with the XMLHttpRequest, use Firefox please !");
+		return;
+	}
+	
+	xhr_object.open("GET", path, true);
+	var content = "";
+	xhr_object.onreadystatechange = function() {
+		if(this.readyState == 4) {
+			data.loadContent(this.responseText);
+			data.scores[0] = data.words.length;
+			data.lesson.updateScores(0);
+			data.lesson.main.generateAsk();
+		}
+	}
+	xhr_object.send(null);
 }

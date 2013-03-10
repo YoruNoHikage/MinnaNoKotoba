@@ -1,0 +1,3 @@
+ohayo, konnichiwa = bonjour, salut, connard
+tamago = oeuf
+nani = quoi, que

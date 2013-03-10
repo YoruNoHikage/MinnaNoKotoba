@@ -1,7 +1,7 @@
 window.onload = function() {
 	var form = document.getElementById('form');
 	var numberLesson = 1;
-	var lesson = new Lesson(numberLesson);
+	var lesson = new Lesson(this, numberLesson);
 	var ask = 0;
 	
 	// Generate ask
@@ -30,7 +30,4 @@ window.onload = function() {
 		checkAnswer();
 		generateAsk();
 	};
-	
-	// Init
-	generateAsk();
 };
