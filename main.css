@@ -1,0 +1,29 @@
+body {
+	background: #222;
+}
+
+#qcm {
+	margin: auto;
+	text-align: center;
+}
+
+#ask {
+	font-size: 3em;
+	font-family: Tahoma;
+	color: #fff;
+}
+
+#answer {
+	padding: 20px;
+}
+
+#score p {
+	display: inline-block;
+	padding: 5px 20px;
+	margin: 5px;
+}
+
+#score_0 {	background: #F00;}
+#score_1 {	background: #F80;}
+#score_2 {	background: #8F0;}
+#score_3 {	background: #0F0;}
