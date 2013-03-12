@@ -6,7 +6,11 @@ window.onload = function() {
 	
 	// Generate ask
 	this.generateAsk = function() {
-		ask = Math.floor(Math.random() * lesson.asksLeft());
+		var askTMP = 0;
+		do {
+			askTMP = lesson.getRandomOneAsk();
+		}while(askTMP == ask);
+		ask = askTMP;
 	
 		var askHTML = document.getElementById('ask');
 		askHTML.innerHTML = lesson.getAsk(ask) + " en francais ?";
@@ -25,7 +29,7 @@ window.onload = function() {
 		answer.value = "";
 	};
 	
-	// when the form is submit
+	// when the form is submitted
 	form.onsubmit = function() {
 		checkAnswer();
 		generateAsk();

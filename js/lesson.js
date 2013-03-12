@@ -10,9 +10,37 @@ function Lesson(main, nLesson) {
 		return data;
 	};
 	
-	// return the number of asks for this level
-	this.asksLeft = function() {
-		return this.data.words.length;
+	// generate
+	this.getRandomOneAsk = function() {
+		var noChoiceBot = true;
+		var noChoiceTop = true;
+		for(i = 0 ; i < this.data.maxLevels ; i++) {
+			if(i < Math.floor(this.data.maxLevels / 2)) {
+				if(this.data.scores[i].length != 0) {
+					noChoiceTop = false;
+				}
+			}
+			else {
+				if(this.data.scores[i].length != 0) {
+					noChoiceBot = false;
+					break;
+				}
+			}
+		}
+		
+		var color = Math.floor(Math.random() * 5); // 1 chance by 5 to be closed to red case
+		var nb = 0;
+		do {
+			if((color != 0 && noChoiceTop == false) || noChoiceBot) {
+				nb = Math.floor(Math.random() * Math.floor(this.data.maxLevels / 2));
+			}
+			else if((color == 0 && noChoiceBot == false) || noChoiceTop) {
+				nb = Math.floor(Math.random() * Math.ceil(this.data.maxLevels / 2)) + Math.floor(this.data.maxLevels / 2);
+			}
+		}while(this.data.scores[nb].length == 0);
+		var choice = Math.floor(Math.random() * this.data.scores[nb].length);
+		
+		return this.data.scores[nb][choice];
 	};
 	
 	this.getAsk = function(ask) {
@@ -22,7 +50,6 @@ function Lesson(main, nLesson) {
 	// COMPARE TO KNOW IF IT'S RIGHT OR WRONG
 	
 	this.compare = function(answer, nAsk) {
-		
 		// delete useless spaces
 		answer = answer.replace(/^\s+/g,'').replace(/\s+$/g,'');
 		answer = answer.toLowerCase();
@@ -46,8 +73,8 @@ function Lesson(main, nLesson) {
 		for(i = 0 ; i < this.data.maxLevels ; i++) {
 			var mikado = document.getElementById("score_" + i);
 			
-			mikado.innerHTML = this.data.scores[i];
-			mikado.setAttribute('style', 'padding-top:' + parseInt(this.data.scores[i] * 100 / this.data.words.length) + 'px');
+			mikado.innerHTML = this.data.scores[i].length;
+			mikado.setAttribute('style', 'padding-top:' + parseInt(this.data.scores[i].length * 100 / this.data.words.length) + 'px');
 		}
 	}
 	
@@ -82,7 +109,7 @@ function Data(lesson) {
 	this.maxLevels = 4;
 	this.scores = new Array(this.maxLevels);
 	for(i = 0 ; i < this.scores.length ; i++) {
-		this.scores[i] = 0;
+		this.scores[i] = new Array();
 	}
 	this.lesson = lesson;
 	
@@ -98,18 +125,18 @@ function Data(lesson) {
 			this.words[ask].currentLevel = this.maxLevels - 1;
 		}
 		else {
-			if(this.scores[this.words[ask].currentLevel - 1] > 0) {
-				this.scores[this.words[ask].currentLevel - 1]--;
+			if(this.scores[this.words[ask].currentLevel - 1].length > 0) {
+				this.scores[this.words[ask].currentLevel - 1].remove(ask);
 			}
-			this.scores[this.words[ask].currentLevel]++;
+			this.scores[this.words[ask].currentLevel].push(ask);
 		}
 	};
 	
 	this.downLevel = function(ask) {
-		this.scores[this.words[ask].currentLevel]--;
+		this.scores[this.words[ask].currentLevel].remove(ask);
 		
 		this.words[ask].currentLevel = 0;
-		this.scores[this.words[ask].currentLevel]++;
+		this.scores[this.words[ask].currentLevel].push(ask);
 	}
 	
 	this.load = function(filename) {
@@ -146,10 +173,38 @@ function getFile(path, data) {
 	xhr_object.onreadystatechange = function() {
 		if(this.readyState == 4) {
 			data.loadContent(this.responseText);
-			data.scores[0] = data.words.length;
+			for(i = 0 ; i < data.words.length ; i++) {
+				data.scores[0].push(i);
+			}
 			data.lesson.updateScores(0);
 			data.lesson.main.generateAsk();
 		}
 	}
 	xhr_object.send(null);
 }
+
+// Tools
+
+// IE8 & below compatibility
+if(!Array.prototype.indexOf) {
+    Array.prototype.indexOf = function(what, i) {
+        i = i || 0;
+        var L = this.length;
+        while (i < L) {
+            if(this[i] === what) return i;
+            ++i;
+        }
+        return -1;
+    };
+}
+
+Array.prototype.remove = function() {
+    var what, a = arguments, L = a.length, ax;
+    while (L && this.length) {
+        what = a[--L];
+        while ((ax = this.indexOf(what)) !== -1) {
+            this.splice(ax, 1);
+        }
+    }
+    return this;
+};
