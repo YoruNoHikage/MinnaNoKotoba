@@ -88,6 +88,11 @@ function Lesson(main, nLesson) {
 		this.updateScores();
 	};
 	
+	this.reload = function(nbLesson) {
+		this.numberLesson = nbLesson;
+		this.data = this.loadLesson();
+	};
+	
 	// Init
 	this.data = this.loadLesson();
 }

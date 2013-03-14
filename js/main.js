@@ -1,5 +1,6 @@
 window.onload = function() {
 	var form = document.getElementById('form');
+	var filesSelect = document.getElementById('list_files');
 	var numberLesson = 1;
 	var lesson = new Lesson(this, numberLesson);
 	var ask = 0;
@@ -13,7 +14,7 @@ window.onload = function() {
 		ask = askTMP;
 	
 		var askHTML = document.getElementById('ask');
-		askHTML.innerHTML = lesson.getAsk(ask) + " en francais ?";
+		askHTML.innerHTML = lesson.getAsk(ask) + " en fran&ccedil;ais ?";
 	};
 	
 	// Verify if the answer is correct and update the score
@@ -27,6 +28,13 @@ window.onload = function() {
 		}
 		
 		answer.value = "";
+	};
+	
+	// To change lesson or another
+	filesSelect.onchange = this.loadLesson = function() {
+		numberLesson = filesSelect.value;
+		
+		lesson.reload(numberLesson);
 	};
 	
 	// when the form is submitted
