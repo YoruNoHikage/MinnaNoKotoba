@@ -9,6 +9,10 @@
 		
 		<div id="qcm">
 			<p id="ask">Question</p>
+			<p id="corrections">
+				<span id="correction"></span>
+				<span id="precision"></span>
+			</p>
 			<form id="form" action="#">
 				<p>
 					<input id="answer" type="text" placeholder="Entrez la r&eacute;ponse" />
@@ -26,6 +30,7 @@
 				<p id="score_3">0</p>
 			</div>
 		</div>
+		<script src="js/levenshtein.js"></script>
 		<script src="js/lesson.js"></script>
 		<script src="js/main.js"></script>
 	</body>

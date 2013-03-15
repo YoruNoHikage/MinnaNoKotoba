@@ -1,6 +1,8 @@
 function Lesson(main, nLesson) {
 	this.numberLesson = nLesson;
 	this.main = main;
+	this.precision;
+	this.correction;
 	
 	this.loadLesson = function() {
 		var data = new Data(this);
@@ -40,11 +42,17 @@ function Lesson(main, nLesson) {
 		}while(this.data.scores[nb].length == 0);
 		var choice = Math.floor(Math.random() * this.data.scores[nb].length);
 		
+		this.correction = this.getAnswer(this.data.scores[nb][choice]);
+		
 		return this.data.scores[nb][choice];
 	};
 	
 	this.getAsk = function(ask) {
 		return this.data.words[ask].keys[0];
+	};
+	
+	this.getAnswer = function(answer) {
+		return this.data.words[answer].values[0];
 	};
 	
 	// COMPARE TO KNOW IF IT'S RIGHT OR WRONG
@@ -59,9 +67,8 @@ function Lesson(main, nLesson) {
 			ask = ask.replace(/^\s+/g,'').replace(/\s+$/g,'');
 			ask = ask.toLowerCase();
 			
-			if(answer == ask) {
-				return true;
-			}
+			this.precision = parseInt(comparePercentage(ask, answer));
+			return this.precision >= 60;
 		}
 		return false;
 	};

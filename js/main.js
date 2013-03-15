@@ -27,6 +27,12 @@ window.onload = function() {
 			lesson.downWord(ask);
 		}
 		
+		if(lesson.precision !== undefined)
+			document.getElementById("precision").innerHTML = lesson.precision + "%";
+		
+		if(lesson.correction !== undefined)
+			document.getElementById("correction").innerHTML = lesson.correction;
+		
 		answer.value = "";
 	};
 	

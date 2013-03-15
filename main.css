@@ -23,6 +23,15 @@ body {
 	margin: 5px;
 }
 
+#corrections {
+	color: #f00;
+	font-weight: bold;
+}
+
+#precision, #correction {
+	font-size: 2em;
+}
+
 #score_0 {	background: #F00;}
 #score_1 {	background: #F80;}
 #score_2 {	background: #8F0;}
