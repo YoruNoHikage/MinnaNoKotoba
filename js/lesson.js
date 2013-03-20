@@ -42,7 +42,7 @@ function Lesson(main, nLesson) {
 		}while(this.data.scores[nb].length == 0);
 		var choice = Math.floor(Math.random() * this.data.scores[nb].length);
 		
-		this.correction = this.getAnswer(this.data.scores[nb][choice]);
+		this.correction = this.getAnswers(this.data.scores[nb][choice]);
 		
 		return this.data.scores[nb][choice];
 	};
@@ -51,8 +51,8 @@ function Lesson(main, nLesson) {
 		return this.data.words[ask].keys[0];
 	};
 	
-	this.getAnswer = function(answer) {
-		return this.data.words[answer].values[0];
+	this.getAnswers = function(answer) {
+		return this.data.words[answer].values;
 	};
 	
 	// COMPARE TO KNOW IF IT'S RIGHT OR WRONG
@@ -68,7 +68,7 @@ function Lesson(main, nLesson) {
 			ask = ask.toLowerCase();
 			
 			this.precision = parseInt(comparePercentage(ask, answer));
-			return this.precision >= 60;
+			return this.precision >= 80;
 		}
 		return false;
 	};
