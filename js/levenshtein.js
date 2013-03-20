@@ -1,10 +1,7 @@
 function comparePercentage(str1, str2) {
 	var difference = levenshtein(str1, str2);
 	
-	if(Math.min(str1.length, str2.length) - difference < 0)
-		return 0;
-	else
-		return (Math.min(str1.length, str2.length) - difference) / Math.max(str1.length, str2.length) * 100;
+	return str1.length / (difference + str1.length) * 100;
 }
 
 function levenshtein (s1, s2) {
