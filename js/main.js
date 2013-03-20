@@ -22,16 +22,34 @@ window.onload = function() {
 		var answerHTML = document.getElementById('answer');
 		if(lesson.compare(answerHTML.value, ask)) {
 			lesson.upWord(ask);
+			document.querySelectorAll(".value")[0].className = "value good";
+			document.querySelectorAll(".value")[1].className = "value good";
 		}
 		else {
 			lesson.downWord(ask);
+			document.querySelectorAll(".value")[0].className = "value bad";
+			document.querySelectorAll(".value")[1].className = "value bad";
 		}
 		
-		if(lesson.precision !== undefined)
-			document.getElementById("precision").innerHTML = lesson.precision + "%";
+		if(lesson.precision !== undefined) {
+			document.querySelectorAll(".precision")[0].style.display = 'table-cell';
+			document.querySelectorAll(".precision")[1].style.display = 'table-cell';
+			document.querySelector(".precision .value").innerHTML = lesson.precision + "%";
+		}
+		else {
+			document.querySelectorAll(".precision")[0].style.display = 'none';
+			document.querySelectorAll(".precision")[1].style.display = 'none';
+		}
 		
-		if(lesson.correction !== undefined)
-			document.getElementById("correction").innerHTML = lesson.correction;
+		if(lesson.correction !== undefined) {
+			document.querySelectorAll(".correction")[0].style.display = 'table-cell';
+			document.querySelectorAll(".correction")[1].style.display = 'table-cell';
+			document.querySelector(".correction .value").innerHTML = lesson.correction;
+		}
+		else {
+			document.querySelectorAll("correction")[0].style.display = 'none';
+			document.querySelectorAll("correction")[1].style.display = 'none';
+		}
 		
 		answer.value = "";
 	};
@@ -48,4 +66,9 @@ window.onload = function() {
 		checkAnswer();
 		generateAsk();
 	};
+	
+	var liste = document.querySelectorAll(".precision")[0].style.display = 'none';
+	document.querySelectorAll(".precision")[1].style.display = 'none';
+	document.querySelectorAll(".correction")[0].style.display = 'none';
+	document.querySelectorAll(".correction")[1].style.display = 'none';
 };

@@ -9,10 +9,20 @@
 		
 		<div id="qcm">
 			<p id="ask">Question</p>
-			<p id="corrections">
-				<span id="correction"></span>
-				<span id="precision"></span>
-			</p>
+			<table id="infos">
+				<thead>
+					<tr>
+						<td class="correction">Correction :</td>
+						<td class="precision">Pr&eacute;cision :</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="correction"><span class="value"></span></td>
+						<td class="precision"><span class="value"></span></td>
+					</tr>
+				</tbody>
+			</table>
 			<form id="form" action="#">
 				<p>
 					<input id="answer" type="text" placeholder="Entrez la r&eacute;ponse" />
