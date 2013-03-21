@@ -61,16 +61,21 @@ function Lesson(main, nLesson) {
 		// delete useless spaces
 		answer = answer.replace(/^\s+/g,'').replace(/\s+$/g,'');
 		answer = answer.toLowerCase();
-	
+		
+		this.precision = 0;
 		for(i = 0 ; i < this.data.words[nAsk].values.length ; i++) {
 			var ask = this.data.words[nAsk].values[i];
 			ask = ask.replace(/^\s+/g,'').replace(/\s+$/g,'');
 			ask = ask.toLowerCase();
 			
-			this.precision = parseInt(comparePercentage(ask, answer));
-			return this.precision >= 80;
+			var percentage = parseInt(comparePercentage(ask, answer));
+			if(percentage > this.precision) {
+				this.precision = percentage;
+			}
+			if(this.precision == 100)
+				return true;
 		}
-		return false;
+		return this.precision >= 80;
 	};
 	
 	// SCORES
