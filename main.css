@@ -1,5 +1,7 @@
 body {
 	background: #222;
+	margin: 0;
+	padding: 0;
 }
 
 #qcm {
@@ -63,3 +65,36 @@ body {
 #score_1 {	background: #F80;}
 #score_2 {	background: #8F0;}
 #score_3 {	background: #0F0;}
+
+#help {
+	margin: 10px 0;
+}
+
+#help a {
+	text-decoration: none;
+	color: #008fff;
+}
+
+#help a.help_button, #about {
+	background: #333;
+    box-shadow: 0 0 3px #000 inset;
+}
+
+#help a.help_button {
+	padding: 5px 15px;
+	font-size: 2em;
+	width: 30px;
+	margin: auto;
+	border: 1px solid black;
+	border-radius: 25px;
+}
+
+#help a:hover {
+	color: #555;
+}
+
+#about {
+	color: #aaa;
+	padding: 5px;
+	margin-top: 10px;
+}
