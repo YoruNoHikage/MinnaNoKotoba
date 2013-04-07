@@ -25,11 +25,37 @@
 			</table>
 			<form id="form" action="#">
 				<p>
-					<input id="answer" type="text" placeholder="Entrez la r&eacute;ponse" />
-					<input type="submit" value="Valider"/>
+					<input id="answer" type="text" placeholder="..." />
+					<input type="submit" value="OK"/>
 					<select id="list_files">
-						<option value="1">Lesson 1</option>
-						<option value="2">Lesson 2</option>
+						<optgroup label="Fran&ccedil;ais">
+							<option value="lesson1.fr" selected>Le&ccedil;on 1</option>
+							<option value="lesson2.fr">Le&ccedil;on 2</option>
+							<option value="lesson3.fr">Le&ccedil;on 3</option>
+							<option value="lesson4.fr">Le&ccedil;on 4</option>
+							<option value="lesson5.fr">Le&ccedil;on 5</option>
+							<option value="lesson6.fr">Le&ccedil;on 6</option>
+							<option value="lesson7.fr">Le&ccedil;on 7</option>
+							<option value="lesson8.fr">Le&ccedil;on 8</option>
+							<option value="lesson9.fr">Le&ccedil;on 9</option>
+							<option value="lesson10.fr">Le&ccedil;on 10</option>
+							<option value="lesson11.fr">Le&ccedil;on 11</option>
+							<option value="lesson12.fr">Le&ccedil;on 12</option>
+						</optgroup>
+						<optgroup label="English">
+							<option value="lesson1.en">Lesson 1</option>
+							<option value="lesson2.en">Lesson 2</option>
+							<option value="lesson3.en">Lesson 3</option>
+							<option value="lesson4.en">Lesson 4</option>
+							<option value="lesson5.en">Lesson 5</option>
+							<option value="lesson6.en">Lesson 6</option>
+							<option value="lesson7.en">Lesson 7</option>
+							<option value="lesson8.en">Lesson 8</option>
+							<option value="lesson9.en">Lesson 9</option>
+							<option value="lesson10.en">Lesson 10</option>
+							<option value="lesson11.en">Lesson 11</option>
+							<option value="lesson12.en">Lesson 12</option>
+						</optgroup>
 					</select>
 				</p>
 			</form>
@@ -39,7 +65,30 @@
 				<p id="score_2">0</p>
 				<p id="score_3">0</p>
 			</div>
+			<div id="help">
+				<a class="help_button" href="#">?</a>
+				<div id="about">
+					<p>
+						En : You have to up words to the green bar. If the answer is wrong, the word goes back to red bar.
+						Vocabulary files by <a href="http://www.denisowski.org/">Paul Denisowski</a> based on MinnaNoNihongo files.
+					</p>
+					<p>
+						Fr : Vous devez faire monter les mots dans la barre verte. Si la r&eacute;ponse est fausse, le mot retourne dans la barre rouge.
+						Fiches de vocabulaire par <a href="http://yorunohikage.olympe.in">YoruNoHikage</a> bas&eacute; sur les fiches de MinnaNoNihongo.
+					</p>
+				</div>
+			</div>
 		</div>
+		<script>
+			document.getElementById('about').style.display = 'none';
+			document.querySelector('#help a').onclick = function() {
+				var p = document.getElementById('about');
+				if(p.style.display == 'block')
+					p.style.display = 'none';
+				else
+					p.style.display = 'block';
+			}
+		</script>
 		<script src="js/levenshtein.js"></script>
 		<script src="js/lesson.js"></script>
 		<script src="js/main.js"></script>
