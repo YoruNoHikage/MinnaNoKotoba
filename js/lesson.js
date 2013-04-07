@@ -1,5 +1,5 @@
-function Lesson(main, nLesson) {
-	this.numberLesson = nLesson;
+function Lesson(main, filename) {
+	this.lessonFilename = filename;
 	this.main = main;
 	this.precision;
 	this.correction;
@@ -7,7 +7,7 @@ function Lesson(main, nLesson) {
 	this.loadLesson = function() {
 		var data = new Data(this);
 		
-		data.load("lesson" + this.numberLesson + ".txt");
+		data.load(this.lessonFilename + ".txt");
 		
 		return data;
 	};
@@ -48,7 +48,7 @@ function Lesson(main, nLesson) {
 	};
 	
 	this.getAsk = function(ask) {
-		return this.data.words[ask].keys[0];
+		return this.data.words[ask].keys[1];
 	};
 	
 	this.getAnswers = function(answer) {
@@ -64,11 +64,12 @@ function Lesson(main, nLesson) {
 		
 		this.precision = 0;
 		for(i = 0 ; i < this.data.words[nAsk].values.length ; i++) {
-			var ask = this.data.words[nAsk].values[i];
-			ask = ask.replace(/^\s+/g,'').replace(/\s+$/g,'');
-			ask = ask.toLowerCase();
+			var answerToAsk = this.data.words[nAsk].values[i];
+			answerToAsk = answerToAsk.replace(/^\s+/g, '').replace(/\s+$/g, '');
+			answerToAsk = answerToAsk.replace(/\(.+\)/, ''); // to avoid advices in the comparison
+			answerToAsk = answerToAsk.toLowerCase();
 			
-			var percentage = parseInt(comparePercentage(ask, answer));
+			var percentage = parseInt(comparePercentage(answerToAsk, answer));
 			if(percentage > this.precision) {
 				this.precision = percentage;
 			}
@@ -100,8 +101,8 @@ function Lesson(main, nLesson) {
 		this.updateScores();
 	};
 	
-	this.reload = function(nbLesson) {
-		this.numberLesson = nbLesson;
+	this.reload = function(filename) {
+		this.lessonFilename = filename;
 		this.data = this.loadLesson();
 	};
 	
@@ -164,9 +165,15 @@ function Data(lesson) {
 	this.loadContent = function(content) {
 		var lines = content.split("\n");
 		for(i = 0 ; i < lines.length ; i++) {
-			var words = lines[i].split("=");
-			var wordsLeft = words[0].split(",");
-			var wordsRight = words[1].split(",");
+			var word = /^.+ \[/.exec(lines[i]).toString();
+			word = word.replace(/\[/g, "").replace(/\]/g, "");
+			var wordSimple = /\[.+\]/.exec(lines[i]).toString();
+			wordSimple = wordSimple.replace(/\[/g, '').replace(/\]/g, '').replace(/^ +/g, '').replace(/ +$/g, '');
+			
+			var wordsLeft = [word, wordSimple];
+			var definitions = /\/.+\//.exec(lines[i]).toString();
+			definitions = definitions.replace(/\//g, '').replace(/^ +/g, '').replace(/ +$/g, '');
+			var wordsRight = definitions.split(",");
 			
 			this.add(wordsLeft, wordsRight);
 		}
