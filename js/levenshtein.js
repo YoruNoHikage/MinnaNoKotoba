@@ -1,4 +1,7 @@
 function comparePercentage(str1, str2) {
+	if(str1 == '' && str2 == '')
+		return 100;
+		
 	return(1 - (levenshtein(str1, str2) / Math.max(str1.length, str2.length))) * 100;
 }
 
