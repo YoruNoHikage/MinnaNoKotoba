@@ -1,0 +1,48 @@
+﻿これ [これ] /ce, ceci/
+それ [それ] /ce, cela (près de vous)/
+あれ [あれ] /ce, cela (là-bas)/
+この～ [この～] /ce (cette) ~-ci/
+その～ [その～] /ce (cette) ~là (près de vous)/
+あの～ [あの～] /ce (cette) ~-là (là-bas)/
+本 [ほん] /livre/
+辞書 [じしょ] /dictionnaire/
+雑誌 [ざっし] /magazine, revue/
+新聞 [しんぶん] /journal/
+ノート [ノート] /cahier/
+手帳 [てちょう] /carnet, agenda/
+名刺 [めいし] /carte de visite/
+カード [カード] /carte/
+テレホンカード [テレホンカード] /carte de téléphone/
+鉛筆 [えんぴつ] /crayon/
+ボールペン [ボールペン] /stylo à bille/
+シャップペンシル [シャップペンシル] /porte-mine/
+かぎ [かぎ] /clé/
+時計 [とけい] /montre, horloge, réveil/
+傘 [かさ] /parapluie/
+かばん [かばん] /sac, cartable, serviette/
+テープ [テープ] /cassette/
+テープレコーダー [テープレコーダー] /magnétophone/
+テレビ [テレビ] /télévision/
+ラジオ [ラジオ] /radio/
+カメラ [カメラ] /appareil-photo/
+コンピューター [コンピューター] /ordinateur/
+自動車 [じどうしゃ] /voiture/
+机 [つくえ] /bureau/
+いす [いす] /chaise/
+チョコレート [チョコレート] /chocolat/
+コーヒー [コーヒー] /café/
+英語 [えいご] /la langue anglaise/
+日本語 [にほんご] /la langue japonaise/
+～語 [～ご] /langue ~/
+何 [なん] /que, quoi (qu'est-ce que)/
+そう [そう] /(C'est) cela, (C'est) ça/
+違います [ちがいます] /Non ce n'est pas cela, Vous vous trompez/
+そうですか [そうですか] /Ah bon, Je vois, C'est vrai ?/
+あのう [あのう] /euh (utilisé pour montrer une hésitation)/
+ほんの気持ちです [ほんのきもちです] /C'est un tout petit cadeau, C'est un modeste témoignage de reconnaissance/
+どうぞ [どうぞ] /Voilà, S'il vous plaît (utilisé quand on offre quelque chose à quelqu'un)/
+どうも [どうも] /Merci/
+ありがとう [ありがとう] /Merci/
+どうもありがとうございます [どうもありがとございます] /Merci beaucoup/
+これからお世話になります [これからおせわになります] /J'espère pouvoir compter sur votre aide/
+こちらこそよろしく [こちらこそよろしく] /C'est moi qui suis ravi de vous connaître/

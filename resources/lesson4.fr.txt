@@ -1,0 +1,60 @@
+起きます [おきます] /se lever/
+寝ます [ねます] /se coucher, dormir/
+働きます [はたらきます] /travailler/
+休みます [やすみます] /se reposer, prendre un congé/
+勉強します [べんきょうします] /étudier/
+終わります [おわります] /terminer, finir/
+デパート [デパート] /grand magasin/
+銀行 [ぎんこう] /banque/
+郵便局 [ゆうびんきょく] /bureau de poste/
+図書館 [としょかん] /bibliothèque/
+美術館 [びじゅつかん] /musée/
+今 [いま] /maintenant/
+～時 [～じ] /~ heures/
+～分 [～ふん] /~ minutes/
+半 [はん] /demie (30 minutes)/
+何時 [なんじ] /quelle heure/
+何分 [なんぷん] /combien de minutes/
+午前 [ごぜん] /a.m., matin, du matin/
+午後 [ごご] /p.m., après-midi, du soir/
+朝 [あさ] /matin/
+昼 [ひる] /jour, midi/
+晩 [ ばん] /soir, nuit/
+夜 [よる] /soir, nuit/
+おととい [おととい] /avant-hier/
+きのう [きのう] /hier/
+きょう [きょう] /aujourd'hui/
+あした [あした] /demain/
+あさって [あさって] /après-demain/
+けさ [けさ] /ce matin/
+今晩 [こんばん] /ce soir, cette nuit/
+休み [やすみ] /repos, congé, jour de repos/
+昼休み [ひるやすみ] /repos de midi/
+毎朝 [まいあさ] /chaque matin, tous les matins/
+毎晩 [まいばん] /chaque soir, tous les soirs/
+毎日 [まいにち] /chaque jour, tous les jours/
+月曜日 [げつようび] /lundi/
+火曜日 [かようび] /mardi/
+水曜日 [すいようび] /mercredi/
+木曜日 [もくようび] /jeudi/
+金曜日 [きんようび] /vendredi/
+土曜日 [どようび] /samedi/
+日曜日 [にちようび] /dimanche/
+何曜日 [なんようび] /quel jour de la semaine/
+番号 [ばんごう] /numéro/
+何番 [なんばん] /quel numéro/
+～から [～から] /de ~/
+～まで [～まで] /à (jusqu'à) ~/
+～と～ [～と～] /et (utilisé pour lier deux ou plusieurs noms)/
+そちら [そちら] /chez vous/
+大変ですね [たいへんですね] /Vous êtes bien courageux (employée quand on exprime sa sympathie)/
+えーと [えーと] /euh..., voyons/
+お願いします [おねがいします] /S'il vous plaît (lit. Je demande votre faveur)/
+かしこまりました [かしこまりました] /Certainement (monsieur, madame, mademoiselle)/
+お問い合わせの番号 [おといあわせのばんごう] /le numéro que vous demandez/
+どうもありがとうごさいした [どうもありがとうごさいした] /Merci beaucoup/
+ニューヨーク [ニューヨーク] /New York/
+ペキン [ペキン] /Pékin/
+ロンドン [ロンドン] /Londres/
+バンコク [バンコク] /Bangkok/
+ロサンゼルス [ロサンゼルス] /Los Angeles/

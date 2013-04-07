@@ -1,0 +1,55 @@
+行ます [いきます] /aller/
+来ます [きます] /venir/
+帰ります [かえります] /rentrer (chez soi), retourner/
+学校 [がっこう] /école/
+スーパー [スーパー] /supermarché/
+駅 [えき] /gare, station/
+飛行機 [ひこうき] /avion/
+船 [ふね] /bateau/
+電車 [でんしゃ] /train/
+地下鉄 [ちかてつ] /métro/
+新幹線 [しんかんせん] /Shinkansen, super-express (TGV japonais)/
+バス [バス] /autobus/
+タクシー [タクシー] /taxi/
+自転車 [じてんしゃ] /bicyclette/
+歩いて [あるいて] /à pied/
+人 [ひと] /personne, homme, gens/
+友達 [ともだち] /ami(e)/
+彼 [かれ] /il, ami, petit ami/
+彼女 [かのじょ] /elle, amie, petite amie/
+家族 [かぞく] /famille/
+一人で [ひとりで] /seul(e)/
+先週 [せんしゅう] /la semaine dernière/
+今週 [こんしゅう] /cette semaine/
+来週 [らいしゅう] /la semaine prochaine/
+先月 [せんげつ] /le mois dernier/
+今月 [こんげつ] /ce mois/
+来月 [らいげつ] /le mois prochain/
+去年 [きょねん] /l'année dernière/
+ことし [ことし] /cette année/
+来年 [らいねん] /l'année prochaine/
+～月 [～がつ] /le mois de ~/
+何月 [なんがつ] /quel mois/
+一日 [ついたち] /le 1er du mois/
+二日 [ふつか] /le 2, deux jours/
+三日 [みっか] /le 3, trois jours/
+四日 [よっか] /le 4, quatre jours/
+五日 [いつか] /le 5, cinq jours/
+六日 [むいか] /le 6, six jours/
+七日 [なのか] /le 7, sept jours/
+八日 [ようか] /le 8, huit jours/
+九日 [ここのか] /le 9, neuf jours/
+十日 [とおか] /le 10, dix jours/
+十四日 [じゅうよっか] /le 14, quatorze jours/
+二十日 [はつか] /le 20, vingt jours/
+二十四日 [にじゅうよっか] /le 24, vingt-quatre jours/
+～日 [～にち] /le ~, ~ jours/
+何日 [なんにち] /quel jour du mois, combien de jours/
+いつ [いつ] /quand/
+誕生日 [たんじょうび] /anniversaire/
+普通 [ふつう] /(train) omnibus/
+急行 [きゅうこう] /(train) express/
+特急 [とっきゅう] /(train) rapide/
+次の [つぎの] /prochain, suivant/
+どういたしまして [どういたしまして] /Je vous en prie, Il n'y a pas de quoi/
+～番線 [～ばんせん] /quai ~, voie ~/

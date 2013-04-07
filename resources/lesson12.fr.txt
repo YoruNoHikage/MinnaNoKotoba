@@ -1,0 +1,53 @@
+﻿簡単 [かんたん] /facile, simple/
+近い [ちかい] /proche, voisin, près/
+遠い [とおい] /loin, lointain, éloigné/
+速い [はやい] /rapide, vite, prompt, tôt/
+早い [はやい] /rapide, vite, prompt, tôt/
+遅い [おそい] /lent, tardif, tard/
+多い [おおい] /nombreux, beaucoup de/
+人が多い [ひとがおおい] /beaucoup de monde/
+少ない [すくない] /peu nombreux, peu de/
+人が少ない [ひとがすくない] /peu de monde/
+暖かい [あたたかい] /chaud, tiède/
+温かい [あたたかい] /chaud, tiède/
+涼しい [すずしい] /frais/
+甘い [あまい] /sucré, doux/
+辛い [からい] /fort, piquant, salé, épicé/
+重い [おもい] /lourd/
+軽い [かるい] /léger/
+コーヒーがいい  [コーヒーがいい] /préférer le café/
+季節 [きせつ] /saison/
+春 [はる] /printemps/
+夏 [なつ] /été/
+秋 [あき] /automne/
+冬 [ふゆ] /hiver/
+天気 [てんき] /temps (le temps qu'il fait)/
+雨 [あめ] /pluie/
+雪 [ゆき] /neige/
+曇り [くもり] /nuageux/
+ホテル [ホテル] /hôtel/
+空港 [くうこう] /aéroport/
+海 [うみ] /mer, océan/
+世界 [せかい] /monde/
+パーティー [パーティー] /réception, soirée/
+祭り [まつり] /fête/
+試験 [しけん] /examen/
+すき焼き [すきやき] /sukiyaki (un plat de viande et de légumes cuits dans la sauce de soja)/
+刺身 [さしみ] /sashimi (lamelles de poisson cru)/
+すし [すし] /sushi (boulettes de riz vinaigré recouvertes de fines tranches de poisson cru)/
+てんぷら [てんぷら] /tempura (beignets de poissons ou de légumes)/
+生け花 [いけばな] /arrangement floral/
+生け花をします [いけばなをします] /faire l'arrangement floral/
+紅葉 [もみじ] /érable, feuilles rouges d'automne/
+どちら [どちら] /lequel (des deux)/
+どちらも [どちらも] /(tous) les deux, l'un et l'autre/
+ずっと [ずっと] /très, bien plus, beaucoup plus/
+初めて [はじめて] /pour la première fois/
+ただいま [ただいま] /Bonjour (lit. C'est moi. Je suis de retour.) (expression prononcée en rentrant chez soi)/
+おかえりなさい [おかえりなさい] /Bonjour (lit. Vous voilà de retour.) (expression utilisée vis-à-vis d'une personne qui rentre)/
+すごいですね [すごいですね] /C'est formidable, C'est sensationnel, C'est épatant/
+でも [でも] /mais/
+疲れました [つかれました] /(Je suis) fatigué/
+祇園祭 [ぎおんまつり] /la fête à Gion (fête la plus célèbre de Kyoto)/
+香港 [ホンコン] /Hong Kong/
+シンガポール [シンガポール] /Singapour/

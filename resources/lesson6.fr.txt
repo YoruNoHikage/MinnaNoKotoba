@@ -1,0 +1,59 @@
+食べます [たべます] /manger/
+飲みます [のみます] /boire/
+吸います [すいます] /fumer/
+たばこを吸います [たばこをすいます] /fumer une cigarette/
+見ます [みます] /voir, regarder/
+聞きます [ききます] /écouter, entendre/
+読みます [よみます] /lire/
+書きます [かきます] /écrire, dessiner, peindre/
+買います [かいます] /acheter/
+撮ります [とります] /prendre (une photo)/
+写真を撮ります [しゃしんをとります] /prendre une photo/
+します [します] /faire/
+会います [あいます] /rencontrer, voir (quelqu'un)/
+友達を会います [ともだちをあいます] /rencontrer un ami, voir un ami/
+ごはん [ごはん] /riz (cuit), repas/
+朝ごはん [あさごはん] /petit déjeuner/
+昼ごはん [ひるごはん] /déjeuner/
+晩ごはん [ばんごはん] /dîner/
+パン [パン] /pain/
+卵 [たまご] /oeuf/
+肉 [にく] /viande/
+魚 [さかな] /poisson/
+野菜 [やさい] /légume/
+果物 [くだもの] /fruit/
+水 [みず] /eau/
+お茶 [おちゃ] /thé, thé vert/
+紅茶 [こうちゃ] /thé (noir), thé anglais/
+牛乳 [ぎゅうにゅう] /lait/
+ミリク [ミリク] /lait/
+ジュース [ジュース] /jus (de fruit)/
+ビール [ビール] /bière/
+酒 [さけ] /alcool, vin de riz japonais/
+ビデオ [ビデオ] /vidéo-cassette, magnétoscope/
+映画 [えいが] /film, cinéma/
+手紙 [てがみ] /lettre/
+レポート [レポート] /rapport/
+写真 [しゃしん] /photo(graphie)/
+店 [みせ] /magasin, boutique/
+レストラン [レストラン] /restaurant/
+庭 [にわ] /jardin/
+宿題 [しゅくだい] /devoir/
+宿題をします [しゅくだいをします] /faire son devoir/
+テニス [テニス] /tennis/
+サッカー [サッカー] /football/
+サッカーをします [サッカーをします] /jouer au football/
+花見 [はなみ] /contemplation des fleurs de cerisiers/
+花見をします [はなみをします] /aller contempler les cerisiers en fleurs/
+何 [なに] /que, quoi (qu'est-ce que)/
+いっしょに [いっしょに] /avec (quelqu'un), ensemble/
+ちょっと [ちょっと] /un instant, un peu/
+いつも [いつも] /toujours, habituellement/
+時々 [ときどき] /parfois, de temps en temps/
+それから [それから] /après cela, ensuite, et puis/
+ええ [ええ] /oui/
+いいですね [いいですね] /C'est une bonne idée/
+わかりました [わかりました] /Je vois, C'est entendu, D'accord/
+何ですか [なんですか] /Oui ?/
+じゃ、またあした [じゃ、またあした] /Bon à demain/
+メキシコ [メキシコ] /Mexique/

@@ -1,0 +1,56 @@
+わかります [わかります] /comprendre/
+あります [あります] /avoir/
+好き [すき] /(quelqu'un ou quelque chose) qu'on aime/
+嫌い [きらい] /(quelqu'un ou quelque chose) qu'on aime pas/
+上手 [じょうず] /habile, adroit, bon/
+下手 [へた] /maladroit, mauvais/
+料理 [りょうり] /plat, cuisine/
+飲み物 [のみもの] /boisson/
+スポーツ [スポーツ] /sport/
+スポーツをします [スポーツをします] /faire du sport/
+野球 [やきゅう] /base-ball/
+野球をします [やきゅうをします] /jouer au base-ball/
+ダンス [ダンス] /danse/
+ダンスをします [ダンスをします] /danser/
+音楽 [おんがく] /musique/
+歌 [うた] /chanson, chant/
+クラシック [クラシック] /musique classique/
+ジャズ [ジャズ] /jazz/
+コンサート [コンサート] /concert/
+カラオケ [カラオケ] /karaoke/
+歌舞伎 [かぶき] /Kabuki (art théâtral traditionnel japonais qui comprend des danses et des récitatifs)/
+絵 [え] /tableau, peinture/
+字 [じ] /lettre, caractère/
+漢字 [かんじ] /caractères chinois/
+ひらがな [ひらがな] /écriture Hiragana/
+かたかな [かたかな] /écriture Katakana/
+ローマ字 [ローマじ] /Romaji, alphabet romain/
+細かいお金 [こまかいおかね] /petite monnaie, menue monnaie/
+チケット [チケット] /billet/
+時間 [じかん] /temps, heure/
+用事 [ようじ] /occupation, quelque chose à faire/
+約束 [やくそく] /rendez-vous, promesse, engagement/
+ご主人 [ごしゅじん] /mari (de quelqu'un)/
+夫 [おっと] /(mon) mari/
+主人 [しゅじん] /(mon) mari/
+奥さん [おくさん] /femme (de quelqu'un)/
+妻 [つま] /(ma) femme/
+家内 [かない] /(ma) femme/
+子ども [こども]  /enfant/
+よく [よく] /bien, beaucoup/
+だいたい [だいたい] /en gros, à peu près, pour la plupart/
+たくさん [たくさん] /beaucoup, beaucoup de/
+少し [すこし] /un peu, un peu de/
+全然 [ぜんぜん] /pas du tout (utilisé avec une négation)/
+早く [はやく] /tôt, vite, promptement/
+速く [はやく] /tôt, vite, promptement/
+～から [～から] /parce que ~/
+どうして [どうして] /pourquoi/
+残念です [ざんねんです] /C'est dommage, Je regrette, Je suis désolé/
+すみません [すみません] /Excusez-moi, Pardon, Je vous prie de m'excuser/
+もしもし [もしもし] /allo (utilisé pour parler au téléphone)/
+ああ [ああ] /ah/
+いっしょうにいかがですか [いっしょうにいかがですか] /Si nous allions à ~ ensemble ?, Vous ne voulez pas vous joindre à nous ?/
+～はちょっと [～はちょっと] /~ est un peu difficile (euphémisme utilisé pour décliner une invitation)/
+だめですか [だめですか] /Vous ne pouvez pas (venir) ?/
+また今度お願いします [またこんどおねがいします] /Invitez-moi à la prochaine occasion s'il vous plaît (utilisée quand on refuse une invitation de quelqu'un indirectement)/

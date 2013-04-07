@@ -1,0 +1,59 @@
+ハンサム [ハンサム] /beau (pour exprimer l'aspect extérieur des hommes)/
+きれい [きれい] /beau, joli, propre/
+静か [しずか] /calme, tranquille/
+にぎやか [にぎやか] /animé, fréquenté, gai/
+有名 [ゆうめい] /célèbre, fameux/
+親切 [しんせつ] /gentil, aimable/
+元気 [げんき] /en bonne santé, en forme/
+暇 [ひま] /libre (avoir du temps)/
+便利 [べんり] /commode, pratique/
+すてき [すてき] /formidable, superbe, merveilleux/
+大きい [おおきい] /grand/
+小さい [ちいさい] /petit/
+新しい [あたらしい] /nouveau/
+古い [ふるい] /vieux (non pour l'âge des gens)/
+いい [いい] /bon/
+悪い [わるい] /mauvais/
+厚い [あつい] /chaud/
+熱い [あつい] /chaud/
+寒い [さむい] /froid (le temps)/
+冷たい [つめたい] /froid (sensation éprouvée au contact avec un objet)/
+難しい [むずかしい] /difficile/
+易しい [やさしい] /facile, simple/
+高い [たかい] /cher, coûteux, haut, élevé/
+安い [やすい] /bon marché, pas cher/
+低い [ひくい] /bas/
+おもしろい [おもしろい] /intéressant/
+おいしい [おいしい] /bon, délicieux/
+忙しい [いそがしい] /occupé, pris/
+楽しい [たのしい] /réjouissant, agréable, joyeux/
+白い [しろい] /blanc/
+黒い [くろい] /noir/
+赤い [あかい] /rouge/
+青い [あおい] /bleu/
+桜 [さくら] /cerisier, fleurs de cerisier/
+山 [やま] /montagne/
+町 [まち] /ville, bourg/
+食べ物 [たべもの] /nourriture, aliment/
+車 [くるま] /voiture, véhicule/
+所 [ところ] /endroit, lieu, place/
+寮 [りょう] /dortoir, pension, internat/
+勉強 [べんきょう] /étude, leçon/
+生活 [せいかつ] /vie/
+仕事 [しごと] /travail/
+仕事をおしさす [しごとをします] /travailler/
+どう [どう] /comment/
+どんな～ [どんな～] /quel, quelle sorte de ~/
+どれ [どれ] /lequel (parmi trois ou plus)/
+とても [とても] /très/
+あまり [あまり] /(pas) si ~ (utilisé avec négation)/
+そして [そして] /et (coordination de propositions)/
+～が、～ [～が、～] /~ mais ~/
+お元気ですか [おげんきですか] /Comment allez-vous ?/
+そうですね [そうですね] /Heu, Euh voyons..., Eh bien/
+日本の生活に慣れましたか [にほんのせいかつになれましたか] /Êtes-vous habitué à la vie au Japon ?/
+～も一杯いかがですか [～もいっぱいいかがですか] /Ne voulez-vous pas encore une autre tasse de ~ ?/
+いいえ、けっこうです [いいえ、けっこうです] /Non merci/
+もう～ですね [もう～ですね] /Il est déjà ~ n'est-ce pas ?/
+そろそろ失礼します [そろそろしつれいします] /Il est presque temps de partir/
+またいらっしゃってください [またいらっしゃってください] /Revenez-nous voir s'il vous plaît/

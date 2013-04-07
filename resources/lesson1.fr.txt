@@ -1,0 +1,46 @@
+﻿わたし [わたし] /je, moi/
+わたしたち [わたしたち] /nous/
+あなた [あんた] /vous (singulier)/
+あの人 [あのひと] /cette personne (-là), il, lui, elle/
+あの方 [あのかた] /cette personne, il, lui, elle (forme polie)/
+皆さん [みなさん] /(vous) tous, Mesdames Mesdemoiselles et Messieurs/
+～さん [～さん] /M. Mme, Mlle (suffixe ajouté au nom pour montrer du respect)/
+～ちゃん [～ちゃん] /(suffixe ajouté à un prénom d'enfant)/
+～君 [～くん] /(suffixe ajouté au nom ou au prénom d'un garçon)/
+～人 [～じん] /(suffixe ajouté à un nom de pays qui signifie personne de nationalité ~)/
+先生 [せんせい] /professeur, instituteur (n'est pas utilisé quand on parle de la profession de soi-même)/
+教師 [きょうし] /professeur, instituteur (utilisé quand on parle de soi-même)/
+学生 [がくせい] /étudiant/
+会社員 [かいしゃいん] /employé d'une compagnie/
+社員 [しゃいん] /employé de ~ (utilisé avec le nom d'une compagnie)/
+銀行員 [ぎんこういん] /employé de banque/
+医者 [いしゃ] /médecin, docteur/
+研究者 [けんきゅうしゃ] /chercheur/
+エンジニア [エンジニア] /ingénieur/
+大学 [だいがく] /université/
+病院 [びょういん] /hôpital/
+電気 [でんき] /électricité, lampe, lumière/
+だれ [だれ] /qui/
+どなた [どなた] /qui (poli)/
+～歳 [～さい] /~ans/
+何歳 [なんさい] /quel âge/
+おいくつ [おいくつ] /quel âge (poli)/
+はい [はい] /oui/
+いいえ [いいえ] /non/
+失礼ですが [しつれいですが] /Excusez-moi mais, Pardon/
+お名前は [おなまえは] /Comment vous appelez-vous ?, Quel est votre nom/
+初めまして [はじめまして] /Enchanté (de vous connaître) (première phrase utilisée habituellement quand on se présente)/
+どうぞよろしく（お願いします） [どうぞよろしく（おねがいします）] /Très heureux de faire votre connaissance/
+こちらは～さんです [こちらは～さんです] /C'est M.(Mme Mlle) ~/
+～から来ました [～からきました] /I viens (suis venu) de ~/
+アメキカ [アメリカ] /États-Unis/
+イギリス [イギリス] /Angleterre/
+インド [インド] /Inde/
+インドネシア [インドネシア] /Indonésie/
+韓国 [かんこく] /Corée/
+タイ [タイ] /Thaïlande/
+中国 [ちゅうごく] /Chine/
+ドイツ [ドイツ] /Allemagne/
+日本 [にほん] /Japon/
+フランス [フランス] /France/
+ブラジル [ブラジル] /Brésil/

@@ -1,0 +1,63 @@
+﻿子供がいます [こどもがいます] /avoir un enfant/
+日本にいます [にほんにいます] /être au Japon, rester au Japon/
+かかります [かかります] /il faut ~ (temps ou argent)/
+会社を休みます [かいしゃをやすみます] /s'absenter de son bureau/
+一つ [ひとつ] /un(e) (utilisé pour compter les objets)/
+二つ [ふたつ] /deux (utilisé pour compter les objets)/
+三つ [みっつ] /trois (utilisé pour compter les objets)/
+四つ [よっつ] /four (utilisé pour compter les objets)/
+五つ [いつつ] /cinq (utilisé pour compter les objets)/
+六つ [むっつ] /six (utilisé pour compter les objets)/
+七つ [ななつ] /sept (utilisé pour compter les objets)/
+八つ [やっつ] /huit (utilisé pour compter les objets)/
+九つ [ここのつ] /neuf (utilisé pour compter les objets)/
+十 [とお] /dix (utilisé pour compter les objets)/
+いくつ [いくつ] /combien/
+一人 [ひとり] /une personne/
+二人 [ふたり] /deux personnes/
+～人 [～にん] /~ personnes/
+～台 [～だい] /(auxiliaire numéral servant à compter les machines, appareils, voitures, etc.)/
+～枚 [～まい] /(auxiliaire numéral pour les choses minces et plates telles que papier, timbre, etc.)/
+～回 [～かい] /~ fois/
+りんご [りんご] /pomme/
+みかん [みかん] /mandarine/
+サンドイッチ [サンドイッチ] /sandwich/
+カレー [カレー] /curry/
+カレーライス [カレーライス] /riz au curry/
+アイスクリーム [アイスクリーム] /glace/
+切手 [きって] /timbre/
+はがき [はがき] /carte postale/
+封筒 [ふうとう] /enveloppe/
+速達 [そくたつ] /express/
+書留 [かきとめ] /recommandé/
+航空便 [こうくうびん] /poste aérienne, par avion/
+エヤメール [エヤメール] /poste aérienne, par avion/
+船便 [ふなびん] /par bateau/
+両親 [りょうしん] /parents/
+兄弟 [きょうだい ] /frères et soeurs/
+兄 [あに] /(mon) frère aîné/
+お兄さん [おにいさん] /frère aîné (de quelqu'un)/
+姉 [あね] /(ma) soeur aînée/
+お姉さん [おねえさん] /soeur ainée (de quelqu'un)/
+弟 [おとうと] /(mon) frère cadet/
+弟さん [おとうとさん] /frère cadet (de quelqu'un)/
+妹 [いもうと] /(ma) soeur cadette/
+妹さん [いもうとさん] /soeur cadette (de quelqu'un)/
+外国 [がいこく] /pays étranger/
+～時間 [～じかん] /~ heure(s) (en tant que durée)/
+～週間 [～しゅうかん] /~ semaine(s) (en tant que durée)/
+～か月 [～かげつ] /~ mois (en tant que durée)/
+～年 [～ねん] /~ an(s) (en tant que durée)/
+～ぐらい [～ぐらい] /environ, à peu près ~/
+どのくらい [どのくらい] /combien de (temps)/
+全部で [ぜんぶで] /en tout/
+みんな [みんな] /tout, toutes les choses/
+～だけ [～だけ] /seulement ~, pas plus/
+いらしゃいませ [いらしゃいませ] /Entrez bienvenue (salutation dite aux clients qui entrent dans un magasin, etc.)/
+いい天気ですね [いいてんきですね] /Beau temps n'est-ce pas ?/
+お出かけですか [おでかけですか] /Vous allez sortir ?, Vous sortez ?/
+ちょっと～まで [ちょっと～まで] /Je vais juste à ~/
+行っていらっしゃい [いっていらっしゃい] /Bonne journée à toute à l'heure (lit. Allez et revenez.)/
+行ってまいります [いってまいります] /À toute à l'heure (lit. Je vais et reviens.)/
+それから [それから] /et puis, ensuite, après cela/
+オーストラリア [オーストラリア] /Australie/
