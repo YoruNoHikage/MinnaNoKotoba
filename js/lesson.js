@@ -65,8 +65,8 @@ function Lesson(main, filename) {
 		this.precision = 0;
 		for(i = 0 ; i < this.data.words[nAsk].values.length ; i++) {
 			var answerToAsk = this.data.words[nAsk].values[i];
-			answerToAsk = answerToAsk.replace(/^\s+/g, '').replace(/\s+$/g, '');
 			answerToAsk = answerToAsk.replace(/\(.+\)/, ''); // to avoid advices in the comparison
+			answerToAsk = answerToAsk.replace(/^\s+/g, '').replace(/\s+$/g, '');
 			answerToAsk = answerToAsk.toLowerCase();
 			
 			var percentage = parseInt(comparePercentage(answerToAsk, answer));
