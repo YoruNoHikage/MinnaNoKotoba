@@ -193,6 +193,7 @@ function getFile(path, data) {
 	}
 	
 	xhr_object.open("GET", path, true);
+	xhr_object.overrideMimeType("text/plain; charset=utf-8");
 	var content = "";
 	xhr_object.onreadystatechange = function() {
 		if(this.readyState == 4) {
