@@ -60,15 +60,6 @@ window.onload = function() {
 	filesSelect.onchange = this.loadLesson = function() {
 		nameLesson = filesSelect.value;
 		
-		var groups = filesSelect.getElementsByTagName("optgroup");
-		for(i = 0 ; i < groups.length ; i++) {
-			if(groups[i].style.display != 'none') {
-				var options = groups[i].getElementsByTagName("option");
-				nameLesson = filesSelect.value = options[0].value;
-				break;
-			}
-		}
-		
 		lesson.reload(nameLesson);
 	};
 	
@@ -92,7 +83,16 @@ window.onload = function() {
 			}
 		}
 		
-		loadLesson();
+		var groups = filesSelect.getElementsByTagName("optgroup");
+		for(i = 0 ; i < groups.length ; i++) {
+			if(groups[i].style.display != 'none') {
+				var options = groups[i].getElementsByTagName("option");
+				nameLesson = filesSelect.value = options[0].value;
+				break;
+			}
+		}
+		
+		lesson.reload(nameLesson);
 	}
 	
 	// when the form is submitted
@@ -101,7 +101,7 @@ window.onload = function() {
 		generateAsk();
 	};
 	
-	var liste = document.querySelectorAll(".precision")[0].style.display = 'none';
+	document.querySelectorAll(".precision")[0].style.display = 'none';
 	document.querySelectorAll(".precision")[1].style.display = 'none';
 	document.querySelectorAll(".correction")[0].style.display = 'none';
 	document.querySelectorAll(".correction")[1].style.display = 'none';
