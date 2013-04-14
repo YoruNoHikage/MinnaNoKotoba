@@ -8,12 +8,23 @@
 	<body>
 		
 		<div id="qcm">
-			<p id="ask">Question</p>
+			<p id="ask">
+				<span class="en">Question</span>
+				<span class="fr" style="display: none;">Question</span>
+			</p>
 			<table id="infos">
 				<thead>
 					<tr>
-						<td class="correction">Correction :</td>
-						<td class="precision">Pr&eacute;cision :</td>
+						<td class="correction">
+							<span class="en">Correction</span>
+							<span class="fr" style="display: none;">Correction</span>
+							:
+						</td>
+						<td class="precision">
+							<span class="en">Precision</span>
+							<span class="fr" style="display: none;">Pr&eacute;cision</span>
+							:
+						</td>
 					</tr>
 				</thead>
 				<tbody>
@@ -28,8 +39,8 @@
 					<input id="answer" type="text" placeholder="..." />
 					<input type="submit" value="OK"/>
 					<select id="list_files">
-						<optgroup label="Fran&ccedil;ais">
-							<option value="lesson1.fr" selected>Le&ccedil;on 1</option>
+						<optgroup label="Fran&ccedil;ais" class="fr" style="display: none;">
+							<option value="lesson1.fr">Le&ccedil;on 1</option>
 							<option value="lesson2.fr">Le&ccedil;on 2</option>
 							<option value="lesson3.fr">Le&ccedil;on 3</option>
 							<option value="lesson4.fr">Le&ccedil;on 4</option>
@@ -42,7 +53,7 @@
 							<option value="lesson11.fr">Le&ccedil;on 11</option>
 							<option value="lesson12.fr">Le&ccedil;on 12</option>
 						</optgroup>
-						<optgroup label="English">
+						<optgroup label="English" class="en">
 							<option value="lesson1.en">Lesson 1</option>
 							<option value="lesson2.en">Lesson 2</option>
 							<option value="lesson3.en">Lesson 3</option>
@@ -56,6 +67,10 @@
 							<option value="lesson11.en">Lesson 11</option>
 							<option value="lesson12.en">Lesson 12</option>
 						</optgroup>
+						<optgroup label="Other">
+							<option class="en" value="upload">Upload a file...</option>
+							<option class="fr" style="display: none;" value="upload">Envoyer un fichier...</option>
+						</optgroup>
 					</select>
 				</p>
 			</form>
@@ -65,16 +80,22 @@
 				<p id="score_2">0</p>
 				<p id="score_3">0</p>
 			</div>
+			
+			<select id="locale">
+				<option value="en">English</option>
+				<option value="fr">Fran&ccedil;ais</option>
+			</select>
+			
 			<div id="help">
 				<a class="help_button" href="#">?</a>
 				<div id="about">
-					<p>
-						En : You need to fill the green bar. Guess correctly to let the words go to the next bar and reach the green one, 
+					<p class="en">
+						You need to fill the green bar. Guess correctly to let the words go to the next bar and reach the green one, 
 						make a mistake and the word goes back to the red bar.<br/>
 						Vocabulary files by <a href="http://www.denisowski.org/">Paul Denisowski</a> based on MinnaNoNihongo files.
 					</p>
-					<p>
-						Fr : Vous devez remplir la barre verte. Faites monter chaque mot dans la barre suivante en r&eacute;pondant correctement.
+					<p class="fr" style="display: none;">
+						Vous devez remplir la barre verte. Faites monter chaque mot dans la barre suivante en r&eacute;pondant correctement.
 						Si la r&eacute;ponse est fausse, le mot retourne dans la barre rouge.<br/>
 						Fiches de vocabulaire par <a href="http://yorunohikage.olympe.in">YoruNoHikage</a> bas&eacute; sur les fiches de MinnaNoNihongo.
 					</p>

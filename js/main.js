@@ -1,3 +1,5 @@
+var _locale = "en";
+
 window.onload = function() {
 	var form = document.getElementById('form');
 	var filesSelect = document.getElementById('list_files');
@@ -32,8 +34,8 @@ window.onload = function() {
 		}
 		
 		if(lesson.precision !== undefined) {
-			document.querySelectorAll(".precision")[0].style.display = 'table-cell';
-			document.querySelectorAll(".precision")[1].style.display = 'table-cell';
+			document.querySelectorAll(".precision")[0].style.display = '';
+			document.querySelectorAll(".precision")[1].style.display = '';
 			document.querySelector(".precision .value").innerHTML = lesson.precision + "%";
 		}
 		else {
@@ -42,8 +44,8 @@ window.onload = function() {
 		}
 		
 		if(lesson.correction !== undefined) {
-			document.querySelectorAll(".correction")[0].style.display = 'table-cell';
-			document.querySelectorAll(".correction")[1].style.display = 'table-cell';
+			document.querySelectorAll(".correction")[0].style.display = '';
+			document.querySelectorAll(".correction")[1].style.display = '';
 			document.querySelector(".correction .value").innerHTML = lesson.correction;
 		}
 		else {
@@ -58,8 +60,40 @@ window.onload = function() {
 	filesSelect.onchange = this.loadLesson = function() {
 		nameLesson = filesSelect.value;
 		
+		var groups = filesSelect.getElementsByTagName("optgroup");
+		for(i = 0 ; i < groups.length ; i++) {
+			if(groups[i].style.display != 'none') {
+				var options = groups[i].getElementsByTagName("option");
+				nameLesson = filesSelect.value = options[0].value;
+				break;
+			}
+		}
+		
 		lesson.reload(nameLesson);
 	};
+	
+	document.getElementById("locale").onchange = function selectLocale() {
+		var locale = this.value;
+		
+		if(locale != _locale) { // to change the fields
+			var fields = document.querySelectorAll("." + locale);
+			
+			if(fields.length != 0) { // to avoid undefined languages
+				var oldFields = document.querySelectorAll("." + _locale);
+				for(i = 0 ; i < oldFields.length ; i++) {
+					oldFields[i].style.display = 'none';
+				}
+				
+				for(i = 0 ; i < fields.length ; i++) {
+					fields[i].style.display = '';
+				}
+				
+				_locale = locale;
+			}
+		}
+		
+		loadLesson();
+	}
 	
 	// when the form is submitted
 	form.onsubmit = function() {
