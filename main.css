@@ -61,6 +61,12 @@ body {
 .good { color: #2e2;}
 .bad { color: #e11;}
 
+#form p {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+}
+
 #score_0 {	background: #F00;}
 #score_1 {	background: #F80;}
 #score_2 {	background: #8F0;}

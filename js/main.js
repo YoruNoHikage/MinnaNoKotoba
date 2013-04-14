@@ -59,8 +59,13 @@ window.onload = function() {
 	// To change lesson or another
 	filesSelect.onchange = this.loadLesson = function() {
 		nameLesson = filesSelect.value;
-		
-		lesson.reload(nameLesson);
+		if(nameLesson === 'upload') {
+			document.getElementById("upload").style.display = '';
+		}
+		else {
+			document.getElementById("upload").style.display = 'none';
+			lesson.reload(nameLesson);
+		}
 	};
 	
 	document.getElementById("locale").onchange = function selectLocale() {
@@ -83,6 +88,12 @@ window.onload = function() {
 			}
 		}
 		
+		loadFirstValue();
+		
+		lesson.reload(nameLesson);
+	}
+	
+	this.loadFirstValue = function() {
 		var groups = filesSelect.getElementsByTagName("optgroup");
 		for(i = 0 ; i < groups.length ; i++) {
 			if(groups[i].style.display != 'none') {
@@ -91,8 +102,6 @@ window.onload = function() {
 				break;
 			}
 		}
-		
-		lesson.reload(nameLesson);
 	}
 	
 	// when the form is submitted
@@ -105,4 +114,8 @@ window.onload = function() {
 	document.querySelectorAll(".precision")[1].style.display = 'none';
 	document.querySelectorAll(".correction")[0].style.display = 'none';
 	document.querySelectorAll(".correction")[1].style.display = 'none';
+	
+	document.getElementById("upload").style.display = 'none';
+	
+	loadFirstValue();
 };

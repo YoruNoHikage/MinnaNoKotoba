@@ -12,6 +12,25 @@ function Lesson(main, filename) {
 		return data;
 	};
 	
+	var self = this;
+	var fileInput = document.getElementById("upload");
+	fileInput.onchange = function() {
+		var reader = new FileReader();
+		var data = new Data(self);
+	 
+		reader.onload = function() {		
+			data.loadContent(reader.result);
+			for(i = 0 ; i < data.words.length ; i++) {
+				data.scores[0].push(i);
+			}
+			data.lesson.updateScores(0);
+			data.lesson.main.generateAsk();
+		};
+	 
+		reader.readAsText(fileInput.files[0]);
+		self.data = data;
+	};
+	
 	// generate
 	this.getRandomOneAsk = function() {
 		var noChoiceBot = true;
