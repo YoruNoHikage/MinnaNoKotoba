@@ -1,0 +1,43 @@
+﻿つけます [つけます] /allumer, mettre (qqch) en marche/
+消します [けします] /éteindre, fermer, arrêter/
+開けます [あけます] /ouvrir/
+閉めます [しめます] /fermer/
+急ぎます [いそぎます] /se presser, se dépêcher/
+待ちます [まちます] /attendre/
+止めます [とめます] /arrêter, stationner/
+曲がります [まがります] /tourner/
+右へ曲がります [みぎへまがります] /tourner à droite/
+持ちます [もちます] /porter, tenir/
+取ります [とります] /prendre, passer (le sel etc.)/
+手伝います [てつだいます] /aider (qqun dans son travail/
+呼びます [よびます] /appeler/
+話します [はなします] /parler, discuter/
+見せます [みせます] /montrer/
+教えます [おしえます] /donner/
+住所を教えます [じゅうしょをおしえます] /donner une adresse/
+始めます [はじめます] /commencer/
+降ります [ふります] /pleuvoir/
+雨が降ります [あめがふります] /pleuvoir/
+コピーします [コピーします] /photocopier/
+エアコン [エアコン] /air conditionné, climatisation/
+パスポート [パスポート] /passeport/
+名前 [なまえ] /nom/
+住所 [じゅうしょ] /adresse/
+地図 [ちず] /plan, carte/
+塩 [しお] /sel/
+砂糖 [さとう] /sucre/
+読み方 [よみかた] /façon de lire, façon de prononcer/
+～方 [～かた] /façon de ~, manière de ~/
+ゆっくり [ゆっくり] /lentement, doucement/
+すぐ [すぐ] /lentement, immédiatement/
+また [また] /encore, de nouveau/
+あとで [あとで] /plus tard, après/
+もう少し [もうすこし] /un peu plus/
+もう～ [もう～] /encore ~, de plus ~, un(e) autre/
+いいですよ [いいですよ] /Certainement, Bien sûr/
+さあ [さあ] /Allons, Allez (utilisée quand on invite ou encourage qqun à faire qqch)/
+あれ [あれ] /Oh!, Tiens (surprise ou étonnement)/
+信号を右へ曲がってください [しんごうをみぎへまがってください] /Tournez à droite au feu/
+まっすぐ [まっすぐ] /tout droit/
+これでお願いします [これでおねがいします] /Je voudrais payer avec cela/
+お釣り [おつり] /monnaie/
